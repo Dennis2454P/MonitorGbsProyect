@@ -72,6 +72,9 @@ public class Usuarios {
 	public String getContraseña() {
 		return contraseña;
 	}
+	public Usuarios() {
+		super();
+	}
     
     
     
