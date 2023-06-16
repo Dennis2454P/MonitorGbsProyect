@@ -15,7 +15,7 @@ public class controles {
 	
     @Autowired
     private ServicioRegister userService;
-
+/*create method post*/
     @PostMapping
     public Usuarios createUser(@RequestBody Usuarios user){
         return userService.createuser(user);
